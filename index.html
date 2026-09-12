@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manish Jangir | Portfolio - CSE, Cybersecurity & AI</title>
+  <meta name="description" content="Personal portfolio of Manish Jangir, B.Tech CSE student at JECRC University, Jaipur. Specializing in Cybersecurity, Brute Force Prevention, and Generative AI Architectures.">
+  
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==========================================
+       NAVIGATION BAR
+       ========================================== -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo" aria-label="Manish Jangir Portfolio Home">
+        <div class="brand-badge">MJ</div>
+        <div class="brand-meta">
+          <span class="brand-name">Manish Jangir</span>
+          <span class="brand-subtitle">B.Tech CSE // JECRC</span>
+        </div>
+      </a>
+
+      <button class="mobile-toggle" id="mobileNavToggle" aria-label="Toggle Navigation Menu">☰</button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero" class="active">Overview</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#security-project">Security Project</a></li>
+        <li><a href="#ai-research">AI Research</a></li>
+        <li><a href="#honors">Certificate</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-cta">
+        <a href="#contact" class="btn btn-primary btn-sm">Connect With Me</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ==========================================
+       HERO SECTION
+       ========================================== -->
+  <section class="hero-section" id="hero">
+    <div class="container">
+      <div class="hero-grid">
+        
+        <!-- Left: Intro & Identity -->
+        <div class="hero-content">
+          <div class="status-pill">
+            <span class="status-dot"></span>
+            <span>Available for Tech Collaborations & Internships</span>
+          </div>
+
+          <h1 class="hero-title">
+            Engineering Secure Code & Exploring the Frontiers of <span class="gradient-text">Artificial Intelligence</span>.
+          </h1>
+
+          <p class="hero-lead">
+            I am <strong>Manish Jangir</strong>, a first-year Computer Science Engineering student at <strong>JECRC University, Jaipur</strong>. Passionate about architecting defensive web security solutions, analyzing cutting-edge AI foundation models, and communicating complex technical paradigms with clarity.
+          </p>
+
+          <div class="hero-institution">
+            <div class="hero-institution-icon">🏛️</div>
+            <div class="hero-institution-text">
+              <strong>JECRC University, Jaipur</strong>
+              <span>Bachelor of Technology (B.Tech) in Computer Science & Engineering</span>
+            </div>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#security-project" class="btn btn-primary">
+              <span>View Security Project</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+            <a href="#ai-research" class="btn btn-secondary">
+              <span>Explore AI Research</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 14"></polyline></svg>
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-item">
+              <h3>B.Tech CSE</h3>
+              <p>Academic Focus (1st Year)</p>
+            </div>
+            <div class="stat-item">
+              <h3>Cyber & AI</h3>
+              <p>Core Specialization Tracks</p>
+            </div>
+            <div class="stat-item">
+              <h3>Gold Medalist</h3>
+              <p>National Science Olympiad</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Profile Visual -->
+        <div class="hero-visual">
+          <div class="portrait-wrapper">
+            <div class="portrait-inner">
+              <img 
+                src="assets/images/profile.jpg" 
+                alt="Manish Jangir - B.Tech CSE Student & Cybersecurity Enthusiast"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+              >
+              <div class="cyber-avatar-fallback">
+                <div class="avatar-initials-ring">MJ</div>
+                <div class="avatar-fallback-title">Manish Jangir</div>
+                <div class="avatar-fallback-sub">&lt;CyberSecurity &amp; AI /&gt;</div>
+              </div>
+            </div>
+
+            <!-- Floating Tech Badges -->
+            <div class="floating-chip chip-top">
+              <span style="color: #22d3ee; font-size: 1.1rem;">🛡️</span>
+              <div>
+                <span style="display:block; font-size: 0.72rem; color: #94a3b8;">Focus</span>
+                <span>Cybersecurity & Defense</span>
+              </div>
+            </div>
+
+            <div class="floating-chip chip-bottom">
+              <span style="color: #34d399; font-size: 1.1rem;">🤖</span>
+              <div>
+                <span style="display:block; font-size: 0.72rem; color: #94a3b8;">Research</span>
+                <span>Generative AI Systems</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       ABOUT ME & PILLARS SECTION
+       ========================================== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Academic Background & Mindset</div>
+        <h2>Cultivating Technical Depth & Problem Solving</h2>
+        <p>Combining rigorous computer science fundamentals with hands-on experimentation in cyber defense, neural systems, and articulate written expression.</p>
+      </div>
+
+      <div class="about-grid">
+        <!-- Biography & Strengths -->
+        <div class="about-card">
+          <h3 style="font-size: 1.5rem; margin-bottom: 16px;">Who I Am</h3>
+          <p class="about-bio">
+            Hello! I am <strong>Manish Jangir</strong>, an inquisitive computer science undergraduate at <strong>JECRC University, Jaipur</strong>. I approach technology through a dual lens: proactively defending digital infrastructure from emerging attack vectors and leveraging state-of-the-art Artificial Intelligence to accelerate real-world problem-solving.
+          </p>
+          <p class="about-bio">
+            Beyond coding, I place paramount value on <strong>articulate communication and technical writing</strong>. Whether documenting security incident response playbooks, dissecting LLM context windows, or collaborating in engineering hackathons, I believe the ability to clearly convey technical reasoning is what bridges good ideas with great execution.
+          </p>
+
+          <div class="pillars-grid">
+            <div class="pillar-item">
+              <div class="pillar-icon">🔒</div>
+              <h4>Cybersecurity Mindset</h4>
+              <p>Fascinated by threat modeling, authentication hardening, brute force mitigation, and vulnerability triage.</p>
+            </div>
+            <div class="pillar-item">
+              <div class="pillar-icon">🧠</div>
+              <h4>AI & Prompt Systems</h4>
+              <p>Exploring domain-specific LLM trade-offs, multimodal tokens, context caching, and intelligent automation.</p>
+            </div>
+            <div class="pillar-item">
+              <div class="pillar-icon">✍️</div>
+              <h4>Technical Communication</h4>
+              <p>Strong writing and presentation capabilities that make complex engineering concepts intuitive and actionable.</p>
+            </div>
+            <div class="pillar-item">
+              <div class="pillar-icon">⚙️</div>
+              <h4>Engineering Discipline</h4>
+              <p>Dedicated to foundational computer science, clean algorithmic architecture, and continuous self-learning.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Side: Gaming & Hobbies -->
+        <div class="info-card gaming-card">
+          <div class="gaming-header">
+            <div class="gaming-icon">🎮</div>
+            <div>
+              <h3 style="font-size: 1.3rem;">Tactical Gaming & Strategy</h3>
+              <span style="font-size: 0.8rem; color: var(--accent-violet);">Mindset & Reflexes</span>
+            </div>
+          </div>
+          <p>
+            When I'm not studying or debugging code, you'll find me immersed in competitive and tactical video games. Gaming isn't just entertainment for me—it is a continuous workshop for:
+          </p>
+          <ul class="skill-list" style="margin-bottom: 20px;">
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span><strong>Rapid Decision-Making:</strong> Processing fast-moving real-time data under high pressure.</span>
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span><strong>Spatial & Pattern Recognition:</strong> Predicting opponent maneuvers and spotting system anomalies.</span>
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span><strong>Synchronized Team Communication:</strong> Delivering concise, zero-latency callouts to coordinate team objectives.</span>
+            </li>
+          </ul>
+          <div class="gaming-tags">
+            <span class="badge badge-indigo">Strategic Thinking</span>
+            <span class="badge badge-cyan">Tactical Coordination</span>
+            <span class="badge badge-emerald">Cognitive Agility</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       SKILLS & COMPETENCIES
+       ========================================== -->
+  <section class="section" id="skills" style="background: rgba(255, 255, 255, 0.01);">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Competency Matrix</div>
+        <h2>Skills & Technical Foundations</h2>
+        <p>A balanced synthesis of defensive security methodologies, modern AI workflows, computer science fundamentals, and interpersonal communication.</p>
+      </div>
+
+      <div class="skills-grid">
+        <!-- Card 1: Cybersecurity -->
+        <div class="skill-category-card skill-cyber">
+          <div class="skill-header">
+            <div class="skill-icon-wrap">🛡️</div>
+            <div>
+              <h4>Cybersecurity & Defense</h4>
+              <span class="badge badge-cyan">Core Interest</span>
+            </div>
+          </div>
+          <ul class="skill-list">
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Brute Force & Credential Stuffing Defense</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Rate Limiting (Token Bucket / Leaky Bucket)</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Web Application Security (OWASP Top 10 Basics)</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> WAF & Fail2Ban Rule Modeling</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Multi-Factor Authentication (MFA) Workflows</li>
+          </ul>
+        </div>
+
+        <!-- Card 2: AI & LLM Systems -->
+        <div class="skill-category-card skill-ai">
+          <div class="skill-header">
+            <div class="skill-icon-wrap">🤖</div>
+            <div>
+              <h4>Artificial Intelligence</h4>
+              <span class="badge badge-indigo">Emerging Tech</span>
+            </div>
+          </div>
+          <ul class="skill-list">
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> LLM Architecture Comparative Analysis</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Multimodal Context & Token Optimization</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Structured Output & System Prompting</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> AI-Augmented Software Engineering</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Real-Time Retrieval Grounding (RAG Basics)</li>
+          </ul>
+        </div>
+
+        <!-- Card 3: Software & Web Tech -->
+        <div class="skill-category-card skill-code">
+          <div class="skill-header">
+            <div class="skill-icon-wrap">💻</div>
+            <div>
+              <h4>CSE & Web Systems</h4>
+              <span class="badge badge-emerald">Academic Core</span>
+            </div>
+          </div>
+          <ul class="skill-list">
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> C / C++ Foundations & Object-Oriented Logic</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> HTML5, Semantic CSS3 & Responsive UI</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> JavaScript (ES6+), DOM Manipulation, Event Loops</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> REST API Principles & HTTP Status Protocols</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Git, GitHub & Collaborative Version Control</li>
+          </ul>
+        </div>
+
+        <!-- Card 4: Professional Communication -->
+        <div class="skill-category-card skill-comm">
+          <div class="skill-header">
+            <div class="skill-icon-wrap">✒️</div>
+            <div>
+              <h4>Professional & Communication</h4>
+              <span class="badge badge-gold">Key Strength</span>
+            </div>
+          </div>
+          <ul class="skill-list">
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Technical Writing & Architectural Documentation</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Clear Verbal Presentation & Cross-Functional Dialogue</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Analytical Problem Deconstruction</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Collaborative Hackathon Teaming</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Active Listening & Constructive Feedback</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       FEATURED CYBERSECURITY PROJECT
+       ========================================== -->
+  <section class="section" id="security-project">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Featured Project Case Study</div>
+        <h2>Enterprise Brute Force & Credential Stuffing Prevention</h2>
+        <p>Architecting multi-layered defense-in-depth mechanisms for modern web authentication endpoints.</p>
+      </div>
+
+      <div class="project-showcase">
+        <div class="project-grid">
+          
+          <!-- Left: Architecture & Theoretical Overview -->
+          <div class="project-details">
+            <span class="badge badge-cyan" style="margin-bottom: 12px;">Web Security Architecture</span>
+            <h3>Adaptive Shield: Protecting Authentication Surfaces on Modern Websites</h3>
+            <p class="project-desc">
+              Modern web platforms face persistent automated brute-force scripts and distributed credential stuffing attacks targeting user login endpoints. Relying solely on a password check is catastrophic. This project explores the mathematical and architectural implementation of a progressive, layered mitigation framework designed to defeat bot armies without degrading legitimate user experience.
+            </p>
+
+            <div class="defense-pillars">
+              <div class="defense-pillar-item">
+                <h5><span style="color: var(--accent-cyan);">01.</span> Token-Bucket Rate Limiting</h5>
+                <p>Limits request bursts using memory-resident counters (Redis) per IP and account hash, throttling non-human velocity.</p>
+              </div>
+              <div class="defense-pillar-item">
+                <h5><span style="color: var(--accent-emerald);">02.</span> Progressive Delay (Tarpitting)</h5>
+                <p>Systematically inflates backend response latency exponentially (+500ms, +1500ms) after repeated failed attempts to starve bot concurrency.</p>
+              </div>
+              <div class="defense-pillar-item">
+                <h5><span style="color: var(--accent-indigo);">03.</span> Risk-Based CAPTCHA Spawning</h5>
+                <p>Dynamically injects frictionless invisible challenges (Cloudflare Turnstile / reCAPTCHA v3) only when risk scores cross threshold.</p>
+              </div>
+              <div class="defense-pillar-item">
+                <h5><span style="color: var(--accent-rose);">04.</span> Dynamic IP Quarantine & WAF</h5>
+                <p>Integrates with Fail2Ban and Cloudflare Edge WAF to drop malicious connection sockets at the network perimeter.</p>
+              </div>
+            </div>
+
+            <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+              <span class="badge badge-cyan">OWASP A07: Identification & Auth Failures</span>
+              <span class="badge badge-emerald">Fail2Ban Integration</span>
+              <span class="badge badge-indigo">Token Bucket Algorithm</span>
+            </div>
+          </div>
+
+          <!-- Right: Interactive Live Security Simulator -->
+          <div class="simulator-box">
+            <div class="sim-header">
+              <div class="sim-title">
+                <span>🛡️</span>
+                <span>SECURITY_WAF_DAEMON [LIVE SIMULATOR]</span>
+              </div>
+              <div id="simStatusBadge" class="sim-status status-active-secure">
+                SECURE / NORMAL
+              </div>
+            </div>
+
+            <div class="sim-metrics-bar">
+              <div class="metric-box">
+                <span>Attempt Count</span>
+                <strong id="metricAttempts">0</strong>
+              </div>
+              <div class="metric-box">
+                <span>Simulated Latency</span>
+                <strong id="metricLatency">120ms</strong>
+              </div>
+              <div class="metric-box">
+                <span>Defense State</span>
+                <strong id="metricDefense" style="color: #34d399;">Active Monitoring</strong>
+              </div>
+            </div>
+
+            <div class="sim-form">
+              <div class="sim-input-group">
+                <label for="simPasswordInput">Simulate Inbound Password Guess:</label>
+                <input 
+                  type="text" 
+                  id="simPasswordInput" 
+                  class="sim-input" 
+                  placeholder="e.g. admin123, password, root" 
+                  value="admin123"
+                >
+              </div>
+
+              <div class="sim-actions">
+                <button type="button" id="simAttackBtn" class="sim-btn-attack">
+                  <span>⚡ Simulate Login Attempt</span>
+                </button>
+                <button type="button" id="simResetBtn" class="sim-btn-reset" title="Reset Simulator">
+                  Reset
+                </button>
+              </div>
+            </div>
+
+            <!-- Terminal output -->
+            <div class="sim-terminal" id="simTerminal">
+              <div class="terminal-line log-info">[00:00:01] WAF Engine v4.8 initialized on port 443. Listening for inbound traffic...</div>
+              <div class="terminal-line log-info">[00:00:01] Rate limiting policy: 3 requests / 30s window. Tarpitting active.</div>
+              <div class="terminal-line log-success">[00:00:01] Status: Ready. Click "Simulate Login Attempt" to test escalation.</div>
+            </div>
+
+            <p style="font-size: 0.75rem; color: #64748b; text-align: center; margin: 0;">
+              * Interactive demonstration: Repeated failed clicks trigger progressive delay, bot challenge, and IP quarantine lockout.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       AI RESEARCH & PLATFORM MATRIX
+       ========================================== -->
+  <section class="section" id="ai-research">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Independent Comparative Research</div>
+        <h2>AI Platform Suitability: Navigating Next-Gen LLM Paradigms</h2>
+        <p>A rigorous architectural breakdown analyzing which Artificial Intelligence platform is engineered best for specific classes of computational problems.</p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="ai-filter-tabs">
+        <button class="filter-tab-btn active" data-filter="all">All Platforms</button>
+        <button class="filter-tab-btn" data-filter="general">Conversational & General</button>
+        <button class="filter-tab-btn" data-filter="context">Massive Context & Multimodal</button>
+        <button class="filter-tab-btn" data-filter="code">Engineering & Code Review</button>
+        <button class="filter-tab-btn" data-filter="research">Grounded Web Citations</button>
+        <button class="filter-tab-btn" data-filter="social">Real-Time Social Pulse</button>
+      </div>
+
+      <!-- AI Cards Grid -->
+      <div class="ai-cards-grid">
+        
+        <!-- 1. ChatGPT -->
+        <div class="ai-card" data-ai="chatgpt" data-category="general code">
+          <div class="ai-card-top">
+            <div class="ai-header-row">
+              <div class="ai-avatar-badge">
+                <div class="ai-icon-bubble bubble-chatgpt">✦</div>
+                <div class="ai-title-wrap">
+                  <h4>ChatGPT (GPT-4o)</h4>
+                  <span>OpenAI</span>
+                </div>
+              </div>
+              <span class="ai-suitability-tag badge badge-emerald">Versatile Benchmark</span>
+            </div>
+
+            <p class="ai-overview">
+              The premier general-purpose reasoning powerhouse. Excels in rapid conversational ideation, code snippet synthesis, high-cadence voice processing, and flexible multi-step agentic workflows.
+            </p>
+
+            <ul class="ai-highlights">
+              <li>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Core Architecture:</strong> High-speed multimodal transformer with native audio/vision fusion.</span>
+              </li>
+              <li>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Key Strength:</strong> Natural conversational fluidity, flexible Custom GPT integrations, broad ecosystem.</span>
+              </li>
+              <li>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Ideal Scenario:</strong> Rapid prototyping, creative problem solving, interactive learning dialogue.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="ai-card-footer">
+            <div class="ai-best-for">
+              <span>Best Suited For:</span>
+              <strong>Everyday Engineering & Brainstorming</strong>
+            </div>
+            <span class="badge badge-emerald">General Purpose</span>
+          </div>
+        </div>
+
+        <!-- 2. Google Gemini -->
+        <div class="ai-card" data-ai="gemini" data-category="context code research">
+          <div class="ai-card-top">
+            <div class="ai-header-row">
+              <div class="ai-avatar-badge">
+                <div class="ai-icon-bubble bubble-gemini">G</div>
+                <div class="ai-title-wrap">
+                  <h4>Gemini (1.5 Pro / 2.0)</h4>
+                  <span>Google DeepMind</span>
+                </div>
+              </div>
+              <span class="ai-suitability-tag badge badge-cyan">Context Sovereign</span>
+            </div>
+
+            <p class="ai-overview">
+              Unrivaled leader in context capacity (up to 2,000,000 tokens). Natively processes entire code repositories, hours of high-definition video, or multi-hundred-page academic research volumes in one prompt.
+            </p>
+
+            <ul class="ai-highlights">
+              <li>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Core Architecture:</strong> Native multimodal Mixture-of-Experts with state-of-the-art long-context attention.</span>
+              </li>
+              <li>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Key Strength:</strong> Flawless needle-in-a-haystack recall across millions of tokens + Google Search grounding.</span>
+              </li>
+              <li>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Ideal Scenario:</strong> Whole-repository code refactoring, full video analysis, massive dataset synthesis.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="ai-card-footer">
+            <div class="ai-best-for">
+              <span>Best Suited For:</span>
+              <strong>Massive Repositories & Multimodal Data</strong>
+            </div>
+            <span class="badge badge-cyan">2M+ Token Context</span>
+          </div>
+        </div>
+
+        <!-- 3. Anthropic Claude -->
+        <div class="ai-card" data-ai="claude" data-category="code general">
+          <div class="ai-card-top">
+            <div class="ai-header-row">
+              <div class="ai-avatar-badge">
+                <div class="ai-icon-bubble bubble-claude">C</div>
+                <div class="ai-title-wrap">
+                  <h4>Claude 3.5 Sonnet / Opus</h4>
+                  <span>Anthropic</span>
+                </div>
+              </div>
+              <span class="ai-suitability-tag badge badge-gold">Precision & Code</span>
+            </div>
+
+            <p class="ai-overview">
+              Renowned for nuanced prose, deep architectural steerability, and exceptional coding acumen. Displays extraordinary precision in following intricate developer constraints and generating bug-free software modules.
+            </p>
+
+            <ul class="ai-highlights">
+              <li>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Core Architecture:</strong> Constitutional AI alignment with deep multi-step deterministic reasoning.</span>
+              </li>
+              <li>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Key Strength:</strong> Complex code refactoring, human-like technical prose, low hallucination frequency.</span>
+              </li>
+              <li>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Ideal Scenario:</strong> Production code reviews, technical specification writing, safety-critical workflows.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="ai-card-footer">
+            <div class="ai-best-for">
+              <span>Best Suited For:</span>
+              <strong>Deep Software Architecture & Prose</strong>
+            </div>
+            <span class="badge badge-gold">Top Coding ELO</span>
+          </div>
+        </div>
+
+        <!-- 4. Perplexity AI -->
+        <div class="ai-card" data-ai="perplexity" data-category="research">
+          <div class="ai-card-top">
+            <div class="ai-header-row">
+              <div class="ai-avatar-badge">
+                <div class="ai-icon-bubble bubble-perplexity">P</div>
+                <div class="ai-title-wrap">
+                  <h4>Perplexity AI</h4>
+                  <span>Perplexity</span>
+                </div>
+              </div>
+              <span class="ai-suitability-tag badge badge-cyan">Factual Research</span>
+            </div>
+
+            <p class="ai-overview">
+              An AI-native conversational answer engine grounded in live internet search indexing. Replaces standard search engines by synthesizing verified web documents into structured, hyperlinked, citation-backed answers.
+            </p>
+
+            <ul class="ai-highlights">
+              <li>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Core Architecture:</strong> Retrieval-Augmented Generation (RAG) coupled with multi-source ranking algorithms.</span>
+              </li>
+              <li>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Key Strength:</strong> Inline academic and journalistic citations, zero guesswork, real-time factual currency.</span>
+              </li>
+              <li>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Ideal Scenario:</strong> Academic literature reviews, fact-checking technical CVE disclosures, market research.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="ai-card-footer">
+            <div class="ai-best-for">
+              <span>Best Suited For:</span>
+              <strong>Fact-Checked Research & Live Citations</strong>
+            </div>
+            <span class="badge badge-cyan">Live RAG Engine</span>
+          </div>
+        </div>
+
+        <!-- 5. xAI Grok -->
+        <div class="ai-card" data-ai="grok" data-category="social general">
+          <div class="ai-card-top">
+            <div class="ai-header-row">
+              <div class="ai-avatar-badge">
+                <div class="ai-icon-bubble bubble-grok">𝕏</div>
+                <div class="ai-title-wrap">
+                  <h4>Grok (Grok 2)</h4>
+                  <span>xAI</span>
+                </div>
+              </div>
+              <span class="ai-suitability-tag badge badge-indigo">Real-Time Social</span>
+            </div>
+
+            <p class="ai-overview">
+              Directly connected to the real-time social firehose of platform X (formerly Twitter). Delivers frank, unfiltered insights into breaking global developments, emerging community discourse, and live cybersecurity incident chatter.
+            </p>
+
+            <ul class="ai-highlights">
+              <li>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Core Architecture:</strong> High-performance LLM with continuous stream ingestion of global social graph telemetry.</span>
+              </li>
+              <li>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Key Strength:</strong> Instant awareness of zero-day vulnerabilities posted on tech channels and cultural zeitgeist.</span>
+              </li>
+              <li>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Ideal Scenario:</strong> Real-time sentiment tracking, breaking zero-day alerts, candid conversational exploration.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="ai-card-footer">
+            <div class="ai-best-for">
+              <span>Best Suited For:</span>
+              <strong>Live Social Trends & Unfiltered Intelligence</strong>
+            </div>
+            <span class="badge badge-indigo">Real-Time Firehose</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Interactive Decision Helper Widget -->
+      <div class="ai-recommender-card">
+        <div class="recommender-header">
+          <span class="section-tag" style="margin-bottom: 8px;">Interactive Selector Tool</span>
+          <h3>Which AI Platform Fits Your Problem?</h3>
+          <p style="color: var(--text-muted); font-size: 0.95rem;">Select your objective below to receive an architectural match recommendation:</p>
+        </div>
+
+        <div class="recommender-options">
+          <button class="recommender-btn active" data-case="code-audit">Deep Code Refactoring & Audits</button>
+          <button class="recommender-btn" data-case="massive-docs">Whole Repo / Long Bookmarks (2M Tokens)</button>
+          <button class="recommender-btn" data-case="research-citations">Academic Research with Live Citations</button>
+          <button class="recommender-btn" data-case="daily-assist">Everyday Prototyping & Voice Chat</button>
+          <button class="recommender-btn" data-case="social-trends">Real-Time News & Live Community Feed</button>
+        </div>
+
+        <div class="recommendation-result" id="recommendationResult">
+          <div class="rec-badge-icon">⚡</div>
+          <div class="rec-content">
+            <h4>Top Recommendation: Anthropic Claude 3.5 Sonnet</h4>
+            <p><strong>Rationale:</strong> Claude exhibits superior abstract reasoning over multi-file architectural dependencies, complex refactors, and writing rigorous unit tests with exceptionally low hallucination.</p>
+            <p style="margin-top: 6px; font-size: 0.85rem; color: #22d3ee;">
+              <strong>Key Strength:</strong> Complex Architecture & Technical Writing
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================
+       CERTIFICATE & HONORS SECTION
+       ========================================== -->
+  <section class="section" id="honors">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Recognition & Credentials</div>
+        <h2>Academic Honors & Distinction</h2>
+        <p>Tangible proof of academic rigor, algorithmic dedication, and competitive problem-solving.</p>
+      </div>
+
+      <div class="cert-showcase-grid">
+        
+        <!-- Left: Certificate Image Card with Lightbox Trigger -->
+        <div class="cert-preview-card" id="certModalTrigger" title="Click to view high-resolution certificate">
+          <div class="cert-img-wrap">
+            <img 
+              src="assets/images/certificate.jpg" 
+              alt="Manish Jangir - Certificate of Academic Excellence - National Science Olympiad 2026 Gold Medalist"
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+            >
+            <div class="cert-badge-fallback">
+              <div class="cert-badge-icon">📜</div>
+              <div class="cert-badge-title">Academic Honors &amp; Excellence</div>
+              <div class="cert-badge-sub">National Science Olympiad • Gold Medalist</div>
+              <span class="badge badge-gold" style="margin-top: 10px;">Class Project Verified</span>
+            </div>
+            <div class="cert-overlay-hover">
+              <div class="cert-zoom-btn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                <span>Click to Expand Details</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Certificate Details & Verification -->
+        <div class="cert-info-card">
+          <div class="cert-title-badge">
+            <span>🏆</span>
+            <span>Gold Medalist Distinction</span>
+          </div>
+
+          <h3>Certificate of Academic Excellence</h3>
+          <p>
+            Awarded to <strong>Manish Jangir</strong> for achieving the highest distinction in the prestigious <strong>National Science Olympiad 2026</strong> and demonstrating exceptional merit in competitive problem-solving and software project prototyping during <strong>Hackathon 2026</strong>.
+          </p>
+          <p style="color: var(--text-dim); font-size: 0.95rem;">
+            Recognized for creative engineering collaboration, dedication to algorithmic logic, and high-impact technology contributions under strict competitive timelines.
+          </p>
+
+          <div class="cert-metadata-list">
+            <div class="cert-meta-item">
+              <span>Event / Examination</span>
+              <strong>National Science Olympiad 2026</strong>
+            </div>
+            <div class="cert-meta-item">
+              <span>Distinction Grade</span>
+              <strong style="color: var(--accent-gold);">Gold Medalist (Highest Distinction)</strong>
+            </div>
+            <div class="cert-meta-item">
+              <span>Honoree</span>
+              <strong>Manish Jangir</strong>
+            </div>
+            <div class="cert-meta-item">
+              <span>Verification Endorsement</span>
+              <strong>Prof. Evelyn Reed & Dr. Alan Grant</strong>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       CONTACT & GET IN TOUCH
+       ========================================== -->
+  <section class="section" id="contact" style="background: rgba(255, 255, 255, 0.01);">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Let's Connect</div>
+        <h2>Initiate Contact & Discussion</h2>
+        <p>I am open to technical inquiries, research collaborations, internship opportunities, and knowledge exchange.</p>
+      </div>
+
+      <div class="contact-grid">
+        
+        <!-- Left: Verified Contact Information with One-Click Copy -->
+        <div class="contact-info-cards">
+          
+          <!-- Email Card -->
+          <div class="contact-card">
+            <div class="contact-card-main">
+              <div class="contact-icon-bubble bubble-email">✉️</div>
+              <div class="contact-card-text">
+                <span>Official Email Address</span>
+                <strong>manishxxxxz@gamil.com</strong>
+              </div>
+            </div>
+            <div style="display: flex; gap: 8px;">
+              <button 
+                class="copy-btn" 
+                data-copy="manishxxxxz@gamil.com" 
+                data-label="Email Address"
+                title="Copy email address"
+              >
+                Copy
+              </button>
+              <a href="mailto:manishxxxxz@gamil.com" class="btn btn-secondary btn-sm" title="Send email">
+                Open
+              </a>
+            </div>
+          </div>
+
+          <!-- Phone Card -->
+          <div class="contact-card">
+            <div class="contact-card-main">
+              <div class="contact-icon-bubble bubble-phone">📞</div>
+              <div class="contact-card-text">
+                <span>Direct Contact Phone</span>
+                <strong>45xxxxxx45</strong>
+              </div>
+            </div>
+            <div style="display: flex; gap: 8px;">
+              <button 
+                class="copy-btn" 
+                data-copy="45xxxxxx45" 
+                data-label="Phone Number"
+                title="Copy phone number"
+              >
+                Copy
+              </button>
+              <a href="tel:45xxxxxx45" class="btn btn-secondary btn-sm" title="Dial number">
+                Call
+              </a>
+            </div>
+          </div>
+
+          <!-- Location Card -->
+          <div class="contact-card">
+            <div class="contact-card-main">
+              <div class="contact-icon-bubble bubble-location">📍</div>
+              <div class="contact-card-text">
+                <span>Campus Location</span>
+                <strong>JECRC University, Jaipur, Rajasthan, India</strong>
+              </div>
+            </div>
+            <span class="badge badge-indigo">Campus Residence</span>
+          </div>
+
+          <!-- Professional Note Card -->
+          <div style="padding: 20px; background: rgba(6, 182, 212, 0.05); border: 1px solid rgba(6, 182, 212, 0.2); border-radius: var(--radius-lg);">
+            <h5 style="color: var(--accent-cyan); margin-bottom: 6px; font-size: 0.95rem;">Why Reach Out?</h5>
+            <p style="color: var(--text-muted); font-size: 0.88rem; line-height: 1.6;">
+              Whether you want to discuss defensive cybersecurity implementations, benchmark prompt strategies, evaluate student technical internships, or simply team up for an upcoming hackathon, feel free to drop me a note!
+            </p>
+          </div>
+
+        </div>
+
+        <!-- Right: Clean Contact Form -->
+        <div class="contact-form-card">
+          <h3 style="font-size: 1.4rem; margin-bottom: 20px;">Send a Direct Message</h3>
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="senderName">Your Full Name</label>
+              <input type="text" id="senderName" class="form-control" placeholder="e.g. Sarah Connor" required>
+            </div>
+
+            <div class="form-group">
+              <label for="senderEmail">Your Email Address</label>
+              <input type="email" id="senderEmail" class="form-control" placeholder="e.g. sarah@example.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="senderSubject">Subject / Topic</label>
+              <input type="text" id="senderSubject" class="form-control" placeholder="e.g. Cybersecurity Project Collaboration / Internship Inquiry" required>
+            </div>
+
+            <div class="form-group">
+              <label for="senderMessage">Message</label>
+              <textarea id="senderMessage" class="form-control" placeholder="Write your message or inquiry here..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%;">
+              <span>Send Message ➔</span>
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       FOOTER
+       ========================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="brand-logo">
+          <div class="brand-badge">MJ</div>
+          <div class="brand-meta">
+            <span class="brand-name">Manish Jangir</span>
+            <span class="brand-subtitle">B.Tech Computer Science Engineering</span>
+          </div>
+        </div>
+
+        <ul class="footer-links">
+          <li><a href="#hero">Overview</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#security-project">Security</a></li>
+          <li><a href="#ai-research">AI Research</a></li>
+          <li><a href="#honors">Certificate</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Manish Jangir. All rights reserved. JECRC University, Jaipur.</p>
+        <p style="color: var(--accent-cyan); font-family: var(--font-mono); font-size: 0.8rem;">
+          Clean Semantic HTML5 • CSS3 Modern Glass • Zero External Bundlers
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================
+       CERTIFICATE LIGHTBOX MODAL
+       ========================================== -->
+  <div class="modal-backdrop" id="certLightboxModal" role="dialog" aria-modal="true" aria-labelledby="certModalTitle">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="modal-title" id="certModalTitle">
+          <span>🏆</span>
+          <span>National Science Olympiad 2026 - Certificate of Academic Excellence</span>
+        </div>
+        <button class="modal-close-btn" id="certModalClose" aria-label="Close certificate modal">✕</button>
+      </div>
+      <div class="modal-body">
+        <img 
+          src="assets/images/certificate.jpg" 
+          alt="Certificate of Academic Excellence Awarded to Manish Jangir"
+          onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+        >
+        <div class="cert-badge-fallback" style="padding: 48px 32px; max-width: 500px; margin: 0 auto;">
+          <div class="cert-badge-icon">🏆</div>
+          <div class="cert-badge-title" style="font-size: 1.5rem;">National Science Olympiad 2026</div>
+          <div class="cert-badge-sub" style="font-size: 1rem; margin-top: 4px;">Gold Medalist &amp; Hackathon 2026 Distinction</div>
+          <p style="color: #94a3b8; font-size: 0.88rem; line-height: 1.6; margin-top: 14px;">
+            Recognized for demonstrated excellence in algorithmic problem-solving, collaborative software engineering, and scientific inquiry.
+          </p>
+          <span class="badge badge-gold" style="margin-top: 14px; width: fit-content;">Academic Distinction Verified</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
