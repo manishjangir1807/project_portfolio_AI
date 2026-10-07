@@ -269,7 +269,7 @@ function initAiRecommender() {
             <div class="rec-content">
               <h4>${rec.title}</h4>
               <p><strong>Rationale:</strong> ${rec.rationale}</p>
-              <p style="margin-top: 6px; font-size: 0.85rem; color: #22d3ee;">
+              <p style="margin-top: 6px; font-size: 0.85rem; color: var(--accent-arcane, #34d399);">
                 <strong>Key Strength:</strong> ${modelInfo.badge}
               </p>
             </div>
@@ -288,8 +288,8 @@ function highlightAiCard(targetId) {
   const cards = document.querySelectorAll('.ai-card');
   cards.forEach(card => {
     if (card.getAttribute('data-ai') === targetId) {
-      card.style.borderColor = 'var(--accent-cyan)';
-      card.style.boxShadow = '0 0 25px rgba(6, 182, 212, 0.35)';
+      card.style.borderColor = 'var(--accent-arcane)';
+      card.style.boxShadow = '0 0 25px rgba(52, 211, 153, 0.4)';
       card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     } else {
       card.style.borderColor = 'var(--border-subtle)';

@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Manish Jangir | Portfolio - CSE, Cybersecurity & AI</title>
-  <meta name="description" content="Personal portfolio of Manish Jangir, B.Tech CSE student at JECRC University, Jaipur. Specializing in Cybersecurity, Brute Force Prevention, and Generative AI Architectures.">
+  <title>Manish Jangir | Portfolio - CSE, Cybersecurity & AI Architecture</title>
+  <meta name="description" content="Personal portfolio of Manish Jangir, B.Tech CSE student at JECRC University, Jaipur. Specializing in Defensive Security, Brute Force Prevention, and AI Model Architectures.">
   
   <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,38 +17,111 @@
 <body>
 
   <!-- ==========================================
-       NAVIGATION BAR
+       DOCTOR DOOM THEMED NAVIGATION BAR
        ========================================== -->
   <nav class="navbar" id="navbar">
     <div class="container nav-container">
       <a href="#hero" class="brand-logo" aria-label="Manish Jangir Portfolio Home">
-        <div class="brand-badge">MJ</div>
+        <!-- Doctor Doom Helm / Citadel Monogram Badge -->
+        <div class="brand-badge" title="Monarch Sovereign Crest">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2L4 6v6c0 5.55 3.84 10.74 8 12 4.16-1.26 8-6.45 8-12V6l-8-4z"/>
+            <path d="M9 10h6"/>
+            <path d="M10 14h4"/>
+            <circle cx="9" cy="9" r="1" fill="currentColor"/>
+            <circle cx="15" cy="9" r="1" fill="currentColor"/>
+          </svg>
+        </div>
         <div class="brand-meta">
           <span class="brand-name">Manish Jangir</span>
-          <span class="brand-subtitle">B.Tech CSE // JECRC</span>
+          <span class="brand-subtitle">DOOM // CSE &amp; AI</span>
         </div>
       </a>
 
       <button class="mobile-toggle" id="mobileNavToggle" aria-label="Toggle Navigation Menu">☰</button>
 
+      <!-- Upgraded Navigation Links with Bespoke SVG Logos -->
       <ul class="nav-links" id="navLinks">
-        <li><a href="#hero" class="active">Overview</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#security-project">Security Project</a></li>
-        <li><a href="#ai-research">AI Research</a></li>
-        <li><a href="#honors">Certificate</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li>
+          <a href="#hero" class="active">
+            <!-- Overview Icon: Doom Helm / Imperial Visor -->
+            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+              <polyline points="9 22 9 12 15 12 15 22"/>
+            </svg>
+            <span>Overview</span>
+          </a>
+        </li>
+        <li>
+          <a href="#about">
+            <!-- About Icon: Monarch Sovereign Shield -->
+            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+              <circle cx="12" cy="7" r="4"/>
+            </svg>
+            <span>About</span>
+          </a>
+        </li>
+        <li>
+          <a href="#skills">
+            <!-- Skills Icon: Techno-Sorcery Circuit Core -->
+            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+            </svg>
+            <span>Skills</span>
+          </a>
+        </li>
+        <li>
+          <a href="#security-project">
+            <!-- Security Icon: Titanium Citadel Shield -->
+            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+            <span>Security Project</span>
+          </a>
+        </li>
+        <li>
+          <a href="#ai-research">
+            <!-- AI Research Icon: Arcane Neural Matrix Orb -->
+            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="3"/>
+              <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+            </svg>
+            <span>AI Research</span>
+          </a>
+        </li>
+        <li>
+          <a href="#honors">
+            <!-- Certificate Icon: Royal Gold Medallion -->
+            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="8" r="6"/>
+              <path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/>
+            </svg>
+            <span>Certificate</span>
+          </a>
+        </li>
+        <li>
+          <a href="#contact">
+            <!-- Contact Icon: Encrypted Royal Dispatch -->
+            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+            <span>Contact</span>
+          </a>
+        </li>
       </ul>
 
       <div class="nav-cta">
-        <a href="#contact" class="btn btn-primary btn-sm">Connect With Me</a>
+        <a href="#contact" class="btn btn-primary btn-sm">
+          <span>Connect With Me</span>
+        </a>
       </div>
     </div>
   </nav>
 
   <!-- ==========================================
-       HERO SECTION
+       HERO SECTION (DOCTOR DOOM SOVEREIGN VISUAL)
        ========================================== -->
   <section class="hero-section" id="hero">
     <div class="container">
@@ -58,53 +131,53 @@
         <div class="hero-content">
           <div class="status-pill">
             <span class="status-dot"></span>
-            <span>Available for Tech Collaborations & Internships</span>
+            <span>Available for Tech Collaborations &amp; Internships</span>
           </div>
 
           <h1 class="hero-title">
-            Engineering Secure Code & Exploring the Frontiers of <span class="gradient-text">Artificial Intelligence</span>.
+            Architecting Invincible Web Defense &amp; Commanding <span class="gradient-text">Artificial Intelligence</span>.
           </h1>
 
           <p class="hero-lead">
-            I am <strong>Manish Jangir</strong>, a first-year Computer Science Engineering student at <strong>JECRC University, Jaipur</strong>. Passionate about architecting defensive web security solutions, analyzing cutting-edge AI foundation models, and communicating complex technical paradigms with clarity.
+            I am <strong>Manish Jangir</strong>, a first-year Computer Science Engineering student at <strong>JECRC University, Jaipur</strong>. Inspired by supreme technical precision: architecting impenetrable defensive security systems, analyzing cutting-edge AI architectures, and articulating complex engineering paradigms with clarity.
           </p>
 
           <div class="hero-institution">
             <div class="hero-institution-icon">🏛️</div>
             <div class="hero-institution-text">
               <strong>JECRC University, Jaipur</strong>
-              <span>Bachelor of Technology (B.Tech) in Computer Science & Engineering</span>
+              <span>Bachelor of Technology (B.Tech) in Computer Science &amp; Engineering</span>
             </div>
           </div>
 
           <div class="hero-actions">
             <a href="#security-project" class="btn btn-primary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
               <span>View Security Project</span>
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
             </a>
             <a href="#ai-research" class="btn btn-secondary">
-              <span>Explore AI Research</span>
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 14"></polyline></svg>
+              <span>Explore AI Research</span>
             </a>
           </div>
 
           <div class="hero-stats">
             <div class="stat-item">
-              <h3>B.Tech CSE</h3>
+              <h3 style="color: var(--accent-arcane);">B.Tech CSE</h3>
               <p>Academic Focus (1st Year)</p>
             </div>
             <div class="stat-item">
-              <h3>Cyber & AI</h3>
+              <h3 style="color: var(--accent-gold-bright);">Cyber &amp; AI</h3>
               <p>Core Specialization Tracks</p>
             </div>
             <div class="stat-item">
-              <h3>Gold Medalist</h3>
+              <h3 style="color: #34d399;">Gold Medalist</h3>
               <p>National Science Olympiad</p>
             </div>
           </div>
         </div>
 
-        <!-- Right: Profile Visual -->
+        <!-- Right: Profile Visual & Titanium Aura -->
         <div class="hero-visual">
           <div class="portrait-wrapper">
             <div class="portrait-inner">
@@ -113,27 +186,28 @@
                 alt="Manish Jangir - B.Tech CSE Student & Cybersecurity Enthusiast"
                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
               >
+              <!-- Doctor Doom Cyber-Avatar Fallback -->
               <div class="cyber-avatar-fallback">
-                <div class="avatar-initials-ring">MJ</div>
+                <div class="avatar-initials-ring" title="Sovereign Monogram">MJ</div>
                 <div class="avatar-fallback-title">Manish Jangir</div>
-                <div class="avatar-fallback-sub">&lt;CyberSecurity &amp; AI /&gt;</div>
+                <div class="avatar-fallback-sub">&lt;CyberSecurity &amp; AI Systems /&gt;</div>
               </div>
             </div>
 
-            <!-- Floating Tech Badges -->
+            <!-- Floating Doom Badges -->
             <div class="floating-chip chip-top">
-              <span style="color: #22d3ee; font-size: 1.1rem;">🛡️</span>
+              <span style="color: var(--accent-arcane); font-size: 1.15rem;">🛡️</span>
               <div>
                 <span style="display:block; font-size: 0.72rem; color: #94a3b8;">Focus</span>
-                <span>Cybersecurity & Defense</span>
+                <span style="color: #ffffff;">Cybersecurity &amp; Defense</span>
               </div>
             </div>
 
             <div class="floating-chip chip-bottom">
-              <span style="color: #34d399; font-size: 1.1rem;">🤖</span>
+              <span style="color: var(--accent-gold-bright); font-size: 1.15rem;">⚡</span>
               <div>
                 <span style="display:block; font-size: 0.72rem; color: #94a3b8;">Research</span>
-                <span>Generative AI Systems</span>
+                <span style="color: #ffffff;">Generative AI Systems</span>
               </div>
             </div>
           </div>
@@ -149,15 +223,18 @@
   <section class="section" id="about">
     <div class="container">
       <div class="section-header">
-        <div class="section-tag">Academic Background & Mindset</div>
-        <h2>Cultivating Technical Depth & Problem Solving</h2>
+        <div class="section-tag">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          Academic Trajectory &amp; Mindset
+        </div>
+        <h2>Relentless Technical Depth &amp; Strategic Vision</h2>
         <p>Combining rigorous computer science fundamentals with hands-on experimentation in cyber defense, neural systems, and articulate written expression.</p>
       </div>
 
       <div class="about-grid">
         <!-- Biography & Strengths -->
         <div class="about-card">
-          <h3 style="font-size: 1.5rem; margin-bottom: 16px;">Who I Am</h3>
+          <h3 style="font-size: 1.55rem; margin-bottom: 16px;">Who I Am</h3>
           <p class="about-bio">
             Hello! I am <strong>Manish Jangir</strong>, an inquisitive computer science undergraduate at <strong>JECRC University, Jaipur</strong>. I approach technology through a dual lens: proactively defending digital infrastructure from emerging attack vectors and leveraging state-of-the-art Artificial Intelligence to accelerate real-world problem-solving.
           </p>
@@ -173,7 +250,7 @@
             </div>
             <div class="pillar-item">
               <div class="pillar-icon">🧠</div>
-              <h4>AI & Prompt Systems</h4>
+              <h4>AI &amp; Prompt Systems</h4>
               <p>Exploring domain-specific LLM trade-offs, multimodal tokens, context caching, and intelligent automation.</p>
             </div>
             <div class="pillar-item">
@@ -189,36 +266,36 @@
           </div>
         </div>
 
-        <!-- Right Side: Gaming & Hobbies -->
+        <!-- Right Side: Tactical Gaming & Hobbies -->
         <div class="info-card gaming-card">
           <div class="gaming-header">
             <div class="gaming-icon">🎮</div>
             <div>
-              <h3 style="font-size: 1.3rem;">Tactical Gaming & Strategy</h3>
-              <span style="font-size: 0.8rem; color: var(--accent-violet);">Mindset & Reflexes</span>
+              <h3 style="font-size: 1.35rem;">Tactical Gaming &amp; Strategy</h3>
+              <span style="font-size: 0.82rem; color: var(--accent-gold-bright);">Cognitive Reflexes &amp; Command</span>
             </div>
           </div>
           <p>
-            When I'm not studying or debugging code, you'll find me immersed in competitive and tactical video games. Gaming isn't just entertainment for me—it is a continuous workshop for:
+            When I'm not studying or debugging code, you'll find me immersed in competitive and tactical video games. Gaming serves as a continuous real-time testbed for:
           </p>
           <ul class="skill-list" style="margin-bottom: 20px;">
             <li>
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
-              <span><strong>Rapid Decision-Making:</strong> Processing fast-moving real-time data under high pressure.</span>
+              <span><strong>Rapid Decision-Making:</strong> Synthesizing high-cadence data streams under volatile pressure.</span>
             </li>
             <li>
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
-              <span><strong>Spatial & Pattern Recognition:</strong> Predicting opponent maneuvers and spotting system anomalies.</span>
+              <span><strong>Pattern Recognition:</strong> Predicting adversary routes and detecting subtle system anomalies.</span>
             </li>
             <li>
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
-              <span><strong>Synchronized Team Communication:</strong> Delivering concise, zero-latency callouts to coordinate team objectives.</span>
+              <span><strong>Zero-Latency Team Communication:</strong> Delivering concise callouts to secure objectives.</span>
             </li>
           </ul>
           <div class="gaming-tags">
-            <span class="badge badge-indigo">Strategic Thinking</span>
-            <span class="badge badge-cyan">Tactical Coordination</span>
-            <span class="badge badge-emerald">Cognitive Agility</span>
+            <span class="badge badge-emerald">Strategic Foresight</span>
+            <span class="badge badge-gold">Tactical Command</span>
+            <span class="badge badge-arcane">Mental Agility</span>
           </div>
         </div>
       </div>
@@ -228,11 +305,14 @@
   <!-- ==========================================
        SKILLS & COMPETENCIES
        ========================================== -->
-  <section class="section" id="skills" style="background: rgba(255, 255, 255, 0.01);">
+  <section class="section" id="skills" style="background: rgba(16, 185, 129, 0.015);">
     <div class="container">
       <div class="section-header">
-        <div class="section-tag">Competency Matrix</div>
-        <h2>Skills & Technical Foundations</h2>
+        <div class="section-tag">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          Technical Arsenal
+        </div>
+        <h2>Skills &amp; Technical Foundations</h2>
         <p>A balanced synthesis of defensive security methodologies, modern AI workflows, computer science fundamentals, and interpersonal communication.</p>
       </div>
 
@@ -242,15 +322,15 @@
           <div class="skill-header">
             <div class="skill-icon-wrap">🛡️</div>
             <div>
-              <h4>Cybersecurity & Defense</h4>
-              <span class="badge badge-cyan">Core Interest</span>
+              <h4>Cybersecurity &amp; Defense</h4>
+              <span class="badge badge-emerald">Core Focus</span>
             </div>
           </div>
           <ul class="skill-list">
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Brute Force & Credential Stuffing Defense</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Brute Force &amp; Credential Stuffing Defense</li>
             <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Rate Limiting (Token Bucket / Leaky Bucket)</li>
             <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Web Application Security (OWASP Top 10 Basics)</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> WAF & Fail2Ban Rule Modeling</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> WAF &amp; Fail2Ban Rule Modeling</li>
             <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Multi-Factor Authentication (MFA) Workflows</li>
           </ul>
         </div>
@@ -258,16 +338,16 @@
         <!-- Card 2: AI & LLM Systems -->
         <div class="skill-category-card skill-ai">
           <div class="skill-header">
-            <div class="skill-icon-wrap">🤖</div>
+            <div class="skill-icon-wrap">⚡</div>
             <div>
               <h4>Artificial Intelligence</h4>
-              <span class="badge badge-indigo">Emerging Tech</span>
+              <span class="badge badge-gold">Advanced Systems</span>
             </div>
           </div>
           <ul class="skill-list">
             <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> LLM Architecture Comparative Analysis</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Multimodal Context & Token Optimization</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Structured Output & System Prompting</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Multimodal Context &amp; Token Optimization</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Structured Output &amp; System Prompting</li>
             <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> AI-Augmented Software Engineering</li>
             <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Real-Time Retrieval Grounding (RAG Basics)</li>
           </ul>
@@ -278,16 +358,16 @@
           <div class="skill-header">
             <div class="skill-icon-wrap">💻</div>
             <div>
-              <h4>CSE & Web Systems</h4>
-              <span class="badge badge-emerald">Academic Core</span>
+              <h4>CSE &amp; Web Systems</h4>
+              <span class="badge badge-cyan">Academic Core</span>
             </div>
           </div>
           <ul class="skill-list">
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> C / C++ Foundations & Object-Oriented Logic</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> HTML5, Semantic CSS3 & Responsive UI</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> C / C++ Foundations &amp; Object-Oriented Logic</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> HTML5, Semantic CSS3 &amp; Responsive UI</li>
             <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> JavaScript (ES6+), DOM Manipulation, Event Loops</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> REST API Principles & HTTP Status Protocols</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Git, GitHub & Collaborative Version Control</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> REST API Principles &amp; HTTP Status Protocols</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Git, GitHub &amp; Collaborative Version Control</li>
           </ul>
         </div>
 
@@ -296,16 +376,16 @@
           <div class="skill-header">
             <div class="skill-icon-wrap">✒️</div>
             <div>
-              <h4>Professional & Communication</h4>
+              <h4>Professional &amp; Communication</h4>
               <span class="badge badge-gold">Key Strength</span>
             </div>
           </div>
           <ul class="skill-list">
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Technical Writing & Architectural Documentation</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Clear Verbal Presentation & Cross-Functional Dialogue</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Technical Writing &amp; Architectural Documentation</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Clear Verbal Presentation &amp; Cross-Functional Dialogue</li>
             <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Analytical Problem Deconstruction</li>
             <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Collaborative Hackathon Teaming</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Active Listening & Constructive Feedback</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Active Listening &amp; Constructive Feedback</li>
           </ul>
         </div>
       </div>
@@ -318,8 +398,11 @@
   <section class="section" id="security-project">
     <div class="container">
       <div class="section-header">
-        <div class="section-tag">Featured Project Case Study</div>
-        <h2>Enterprise Brute Force & Credential Stuffing Prevention</h2>
+        <div class="section-tag">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Citadel Defense Case Study
+        </div>
+        <h2>Enterprise Brute Force &amp; Credential Stuffing Prevention</h2>
         <p>Architecting multi-layered defense-in-depth mechanisms for modern web authentication endpoints.</p>
       </div>
 
@@ -328,7 +411,7 @@
           
           <!-- Left: Architecture & Theoretical Overview -->
           <div class="project-details">
-            <span class="badge badge-cyan" style="margin-bottom: 12px;">Web Security Architecture</span>
+            <span class="badge badge-emerald" style="margin-bottom: 12px;">Web Security Architecture</span>
             <h3>Adaptive Shield: Protecting Authentication Surfaces on Modern Websites</h3>
             <p class="project-desc">
               Modern web platforms face persistent automated brute-force scripts and distributed credential stuffing attacks targeting user login endpoints. Relying solely on a password check is catastrophic. This project explores the mathematical and architectural implementation of a progressive, layered mitigation framework designed to defeat bot armies without degrading legitimate user experience.
@@ -336,36 +419,36 @@
 
             <div class="defense-pillars">
               <div class="defense-pillar-item">
-                <h5><span style="color: var(--accent-cyan);">01.</span> Token-Bucket Rate Limiting</h5>
+                <h5><span style="color: var(--accent-arcane);">01.</span> Token-Bucket Rate Limiting</h5>
                 <p>Limits request bursts using memory-resident counters (Redis) per IP and account hash, throttling non-human velocity.</p>
               </div>
               <div class="defense-pillar-item">
-                <h5><span style="color: var(--accent-emerald);">02.</span> Progressive Delay (Tarpitting)</h5>
+                <h5><span style="color: var(--accent-gold-bright);">02.</span> Progressive Delay (Tarpitting)</h5>
                 <p>Systematically inflates backend response latency exponentially (+500ms, +1500ms) after repeated failed attempts to starve bot concurrency.</p>
               </div>
               <div class="defense-pillar-item">
-                <h5><span style="color: var(--accent-indigo);">03.</span> Risk-Based CAPTCHA Spawning</h5>
+                <h5><span style="color: #34d399);">03.</span> Risk-Based CAPTCHA Spawning</h5>
                 <p>Dynamically injects frictionless invisible challenges (Cloudflare Turnstile / reCAPTCHA v3) only when risk scores cross threshold.</p>
               </div>
               <div class="defense-pillar-item">
-                <h5><span style="color: var(--accent-rose);">04.</span> Dynamic IP Quarantine & WAF</h5>
+                <h5><span style="color: var(--accent-rose);">04.</span> Dynamic IP Quarantine &amp; WAF</h5>
                 <p>Integrates with Fail2Ban and Cloudflare Edge WAF to drop malicious connection sockets at the network perimeter.</p>
               </div>
             </div>
 
             <div style="display: flex; gap: 12px; flex-wrap: wrap;">
-              <span class="badge badge-cyan">OWASP A07: Identification & Auth Failures</span>
-              <span class="badge badge-emerald">Fail2Ban Integration</span>
-              <span class="badge badge-indigo">Token Bucket Algorithm</span>
+              <span class="badge badge-emerald">OWASP A07: Auth Hardening</span>
+              <span class="badge badge-arcane">Fail2Ban Integration</span>
+              <span class="badge badge-gold">Token Bucket Algorithm</span>
             </div>
           </div>
 
-          <!-- Right: Interactive Live Security Simulator -->
+          <!-- Right: Interactive Live Security Simulator (Citadel Daemon) -->
           <div class="simulator-box">
             <div class="sim-header">
               <div class="sim-title">
                 <span>🛡️</span>
-                <span>SECURITY_WAF_DAEMON [LIVE SIMULATOR]</span>
+                <span>CITADEL_GATEWAY_DAEMON [LIVE SIMULATOR]</span>
               </div>
               <div id="simStatusBadge" class="sim-status status-active-secure">
                 SECURE / NORMAL
@@ -383,7 +466,7 @@
               </div>
               <div class="metric-box">
                 <span>Defense State</span>
-                <strong id="metricDefense" style="color: #34d399;">Active Monitoring</strong>
+                <strong id="metricDefense" style="color: var(--accent-arcane);">Active Monitoring</strong>
               </div>
             </div>
 
@@ -411,7 +494,7 @@
 
             <!-- Terminal output -->
             <div class="sim-terminal" id="simTerminal">
-              <div class="terminal-line log-info">[00:00:01] WAF Engine v4.8 initialized on port 443. Listening for inbound traffic...</div>
+              <div class="terminal-line log-info">[00:00:01] Citadel WAF Daemon v9.2 active on port 443. Listening for inbound traffic...</div>
               <div class="terminal-line log-info">[00:00:01] Rate limiting policy: 3 requests / 30s window. Tarpitting active.</div>
               <div class="terminal-line log-success">[00:00:01] Status: Ready. Click "Simulate Login Attempt" to test escalation.</div>
             </div>
@@ -432,7 +515,10 @@
   <section class="section" id="ai-research">
     <div class="container">
       <div class="section-header">
-        <div class="section-tag">Independent Comparative Research</div>
+        <div class="section-tag">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+          Independent Comparative Research
+        </div>
         <h2>AI Platform Suitability: Navigating Next-Gen LLM Paradigms</h2>
         <p>A rigorous architectural breakdown analyzing which Artificial Intelligence platform is engineered best for specific classes of computational problems.</p>
       </div>
@@ -440,9 +526,9 @@
       <!-- Filter Tabs -->
       <div class="ai-filter-tabs">
         <button class="filter-tab-btn active" data-filter="all">All Platforms</button>
-        <button class="filter-tab-btn" data-filter="general">Conversational & General</button>
-        <button class="filter-tab-btn" data-filter="context">Massive Context & Multimodal</button>
-        <button class="filter-tab-btn" data-filter="code">Engineering & Code Review</button>
+        <button class="filter-tab-btn" data-filter="general">Conversational &amp; General</button>
+        <button class="filter-tab-btn" data-filter="context">Massive Context &amp; Multimodal</button>
+        <button class="filter-tab-btn" data-filter="code">Engineering &amp; Code Review</button>
         <button class="filter-tab-btn" data-filter="research">Grounded Web Citations</button>
         <button class="filter-tab-btn" data-filter="social">Real-Time Social Pulse</button>
       </div>
@@ -487,7 +573,7 @@
           <div class="ai-card-footer">
             <div class="ai-best-for">
               <span>Best Suited For:</span>
-              <strong>Everyday Engineering & Brainstorming</strong>
+              <strong>Everyday Engineering &amp; Brainstorming</strong>
             </div>
             <span class="badge badge-emerald">General Purpose</span>
           </div>
@@ -504,7 +590,7 @@
                   <span>Google DeepMind</span>
                 </div>
               </div>
-              <span class="ai-suitability-tag badge badge-cyan">Context Sovereign</span>
+              <span class="ai-suitability-tag badge badge-arcane">Context Sovereign</span>
             </div>
 
             <p class="ai-overview">
@@ -530,9 +616,9 @@
           <div class="ai-card-footer">
             <div class="ai-best-for">
               <span>Best Suited For:</span>
-              <strong>Massive Repositories & Multimodal Data</strong>
+              <strong>Massive Repositories &amp; Multimodal Data</strong>
             </div>
-            <span class="badge badge-cyan">2M+ Token Context</span>
+            <span class="badge badge-arcane">2M+ Token Context</span>
           </div>
         </div>
 
@@ -547,7 +633,7 @@
                   <span>Anthropic</span>
                 </div>
               </div>
-              <span class="ai-suitability-tag badge badge-gold">Precision & Code</span>
+              <span class="ai-suitability-tag badge badge-gold">Precision &amp; Code</span>
             </div>
 
             <p class="ai-overview">
@@ -573,7 +659,7 @@
           <div class="ai-card-footer">
             <div class="ai-best-for">
               <span>Best Suited For:</span>
-              <strong>Deep Software Architecture & Prose</strong>
+              <strong>Deep Software Architecture &amp; Prose</strong>
             </div>
             <span class="badge badge-gold">Top Coding ELO</span>
           </div>
@@ -616,7 +702,7 @@
           <div class="ai-card-footer">
             <div class="ai-best-for">
               <span>Best Suited For:</span>
-              <strong>Fact-Checked Research & Live Citations</strong>
+              <strong>Fact-Checked Research &amp; Live Citations</strong>
             </div>
             <span class="badge badge-cyan">Live RAG Engine</span>
           </div>
@@ -633,7 +719,7 @@
                   <span>xAI</span>
                 </div>
               </div>
-              <span class="ai-suitability-tag badge badge-indigo">Real-Time Social</span>
+              <span class="ai-suitability-tag badge badge-gold">Real-Time Social</span>
             </div>
 
             <p class="ai-overview">
@@ -659,9 +745,9 @@
           <div class="ai-card-footer">
             <div class="ai-best-for">
               <span>Best Suited For:</span>
-              <strong>Live Social Trends & Unfiltered Intelligence</strong>
+              <strong>Live Social Trends &amp; Unfiltered Intelligence</strong>
             </div>
-            <span class="badge badge-indigo">Real-Time Firehose</span>
+            <span class="badge badge-gold">Real-Time Firehose</span>
           </div>
         </div>
 
@@ -670,17 +756,20 @@
       <!-- Interactive Decision Helper Widget -->
       <div class="ai-recommender-card">
         <div class="recommender-header">
-          <span class="section-tag" style="margin-bottom: 8px;">Interactive Selector Tool</span>
+          <span class="section-tag" style="margin-bottom: 8px;">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+            Interactive Selector Tool
+          </span>
           <h3>Which AI Platform Fits Your Problem?</h3>
           <p style="color: var(--text-muted); font-size: 0.95rem;">Select your objective below to receive an architectural match recommendation:</p>
         </div>
 
         <div class="recommender-options">
-          <button class="recommender-btn active" data-case="code-audit">Deep Code Refactoring & Audits</button>
+          <button class="recommender-btn active" data-case="code-audit">Deep Code Refactoring &amp; Audits</button>
           <button class="recommender-btn" data-case="massive-docs">Whole Repo / Long Bookmarks (2M Tokens)</button>
           <button class="recommender-btn" data-case="research-citations">Academic Research with Live Citations</button>
-          <button class="recommender-btn" data-case="daily-assist">Everyday Prototyping & Voice Chat</button>
-          <button class="recommender-btn" data-case="social-trends">Real-Time News & Live Community Feed</button>
+          <button class="recommender-btn" data-case="daily-assist">Everyday Prototyping &amp; Voice Chat</button>
+          <button class="recommender-btn" data-case="social-trends">Real-Time News &amp; Live Community Feed</button>
         </div>
 
         <div class="recommendation-result" id="recommendationResult">
@@ -688,8 +777,8 @@
           <div class="rec-content">
             <h4>Top Recommendation: Anthropic Claude 3.5 Sonnet</h4>
             <p><strong>Rationale:</strong> Claude exhibits superior abstract reasoning over multi-file architectural dependencies, complex refactors, and writing rigorous unit tests with exceptionally low hallucination.</p>
-            <p style="margin-top: 6px; font-size: 0.85rem; color: #22d3ee;">
-              <strong>Key Strength:</strong> Complex Architecture & Technical Writing
+            <p style="margin-top: 6px; font-size: 0.85rem; color: var(--accent-arcane);">
+              <strong>Key Strength:</strong> Complex Architecture &amp; Technical Writing
             </p>
           </div>
         </div>
@@ -704,8 +793,11 @@
   <section class="section" id="honors">
     <div class="container">
       <div class="section-header">
-        <div class="section-tag">Recognition & Credentials</div>
-        <h2>Academic Honors & Distinction</h2>
+        <div class="section-tag">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
+          Recognition &amp; Credentials
+        </div>
+        <h2>Academic Honors &amp; Distinction</h2>
         <p>Tangible proof of academic rigor, algorithmic dedication, and competitive problem-solving.</p>
       </div>
 
@@ -756,7 +848,7 @@
             </div>
             <div class="cert-meta-item">
               <span>Distinction Grade</span>
-              <strong style="color: var(--accent-gold);">Gold Medalist (Highest Distinction)</strong>
+              <strong style="color: var(--accent-gold-bright);">Gold Medalist (Highest Distinction)</strong>
             </div>
             <div class="cert-meta-item">
               <span>Honoree</span>
@@ -764,7 +856,7 @@
             </div>
             <div class="cert-meta-item">
               <span>Verification Endorsement</span>
-              <strong>Prof. Evelyn Reed & Dr. Alan Grant</strong>
+              <strong>Prof. Evelyn Reed &amp; Dr. Alan Grant</strong>
             </div>
           </div>
         </div>
@@ -776,11 +868,14 @@
   <!-- ==========================================
        CONTACT & GET IN TOUCH
        ========================================== -->
-  <section class="section" id="contact" style="background: rgba(255, 255, 255, 0.01);">
+  <section class="section" id="contact" style="background: rgba(16, 185, 129, 0.015);">
     <div class="container">
       <div class="section-header">
-        <div class="section-tag">Let's Connect</div>
-        <h2>Initiate Contact & Discussion</h2>
+        <div class="section-tag">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Direct Dispatch
+        </div>
+        <h2>Initiate Contact &amp; Discussion</h2>
         <p>I am open to technical inquiries, research collaborations, internship opportunities, and knowledge exchange.</p>
       </div>
 
@@ -846,14 +941,14 @@
                 <strong>JECRC University, Jaipur, Rajasthan, India</strong>
               </div>
             </div>
-            <span class="badge badge-indigo">Campus Residence</span>
+            <span class="badge badge-emerald">Campus Residence</span>
           </div>
 
           <!-- Professional Note Card -->
-          <div style="padding: 20px; background: rgba(6, 182, 212, 0.05); border: 1px solid rgba(6, 182, 212, 0.2); border-radius: var(--radius-lg);">
-            <h5 style="color: var(--accent-cyan); margin-bottom: 6px; font-size: 0.95rem;">Why Reach Out?</h5>
+          <div style="padding: 20px; background: rgba(16, 185, 129, 0.08); border: 1px solid rgba(52, 211, 153, 0.25); border-radius: var(--radius-lg);">
+            <h5 style="color: var(--accent-arcane); margin-bottom: 6px; font-size: 0.95rem;">Why Reach Out?</h5>
             <p style="color: var(--text-muted); font-size: 0.88rem; line-height: 1.6;">
-              Whether you want to discuss defensive cybersecurity implementations, benchmark prompt strategies, evaluate student technical internships, or simply team up for an upcoming hackathon, feel free to drop me a note!
+              Whether you want to discuss defensive cybersecurity implementations, benchmark prompt strategies, evaluate student technical internships, or team up for an upcoming hackathon, feel free to drop me a note!
             </p>
           </div>
 
@@ -865,12 +960,12 @@
           <form id="contactForm">
             <div class="form-group">
               <label for="senderName">Your Full Name</label>
-              <input type="text" id="senderName" class="form-control" placeholder="e.g. Sarah Connor" required>
+              <input type="text" id="senderName" class="form-control" placeholder="e.g. Victor Von" required>
             </div>
 
             <div class="form-group">
               <label for="senderEmail">Your Email Address</label>
-              <input type="email" id="senderEmail" class="form-control" placeholder="e.g. sarah@example.com" required>
+              <input type="email" id="senderEmail" class="form-control" placeholder="e.g. victor@latveria.tech" required>
             </div>
 
             <div class="form-group">
@@ -884,7 +979,7 @@
             </div>
 
             <button type="submit" class="btn btn-primary" style="width: 100%;">
-              <span>Send Message ➔</span>
+              <span>Transmit Message ➔</span>
             </button>
           </form>
         </div>
@@ -900,10 +995,16 @@
     <div class="container">
       <div class="footer-top">
         <div class="brand-logo">
-          <div class="brand-badge">MJ</div>
+          <div class="brand-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2L4 6v6c0 5.55 3.84 10.74 8 12 4.16-1.26 8-6.45 8-12V6l-8-4z"/>
+              <path d="M9 10h6"/>
+              <path d="M10 14h4"/>
+            </svg>
+          </div>
           <div class="brand-meta">
             <span class="brand-name">Manish Jangir</span>
-            <span class="brand-subtitle">B.Tech Computer Science Engineering</span>
+            <span class="brand-subtitle">B.Tech Computer Science Engineering // JECRC</span>
           </div>
         </div>
 
@@ -920,8 +1021,8 @@
 
       <div class="footer-bottom">
         <p>© 2026 Manish Jangir. All rights reserved. JECRC University, Jaipur.</p>
-        <p style="color: var(--accent-cyan); font-family: var(--font-mono); font-size: 0.8rem;">
-          Clean Semantic HTML5 • CSS3 Modern Glass • Zero External Bundlers
+        <p style="color: var(--accent-arcane); font-family: var(--font-mono); font-size: 0.8rem;">
+          Doctor Doom Imperial Theme • Titanium &amp; Emerald Glass • 100% Zero-Dependency
         </p>
       </div>
     </div>
@@ -960,7 +1061,5 @@
 
   <!-- Main JavaScript File -->
   <script src="script.js"></script>
-<script src="https://cdn.botpress.cloud/webchat/v5.0/inject.js"></script>
-<script src="https://files.bpcontent.cloud/2026/09/19/06/20260919064523-PMGH67OU.js" defer></script>
 </body>
 </html>
